@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SASOnline.Api.NetCore", "SASOnline.Api.NetCore.csproj", "{4496B921-98C9-4517-B4B1-718115926D3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SASOnline.Api.NetCore.Test", "..\SASOnline.Api.NetCore.Test\SASOnline.Api.NetCore.Test.csproj", "{8C42F61C-3494-4226-ACEC-99180155A3A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4496B921-98C9-4517-B4B1-718115926D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4496B921-98C9-4517-B4B1-718115926D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4496B921-98C9-4517-B4B1-718115926D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4496B921-98C9-4517-B4B1-718115926D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C42F61C-3494-4226-ACEC-99180155A3A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C42F61C-3494-4226-ACEC-99180155A3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C42F61C-3494-4226-ACEC-99180155A3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C42F61C-3494-4226-ACEC-99180155A3A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99FA57B5-B31B-4FF8-A8AD-5BCE8D9272A6}
+	EndGlobalSection
+EndGlobal

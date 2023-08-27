@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--<PackageReference Include="Selenium.Chrome.WebDriver" Version="116.0.5845.9600" />-->
+    <!--<PackageReference Include="Selenium.Support" Version="4.11.0" />-->
+    <PackageReference Include="Otp.NET" Version="1.3.0" />
+    <PackageReference Include="RestSharp" Version="106.5.4" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.1.1" />
+    <PackageReference Include="RestSharp" Version="106.5.4" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SASOnline.Api.NetCore\SASOnline.Api.NetCore.csproj" />
+  </ItemGroup> 
+
+</Project>
